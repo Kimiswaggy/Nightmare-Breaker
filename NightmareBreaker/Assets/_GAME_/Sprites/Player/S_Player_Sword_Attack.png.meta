@@ -1,0 +1,1874 @@
+fileFormatVersion: 2
+guid: 3737ad56d4a71c4469d3cedde3988cfa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2114
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94ed256f4bf4dc41ae8089879f39ae5
+      internalID: -1273449852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2114
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beef6eba22fad3b419bc54f054cd027e
+      internalID: 997229533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2114
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fe0fcc0fcef58449a7ee3c656acb97
+      internalID: 1430778914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2114
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0c12dc5fe9c3d4aa411d95615a4bae
+      internalID: -630224786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2114
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd003c463238a04fa5bcea2742d6ca2
+      internalID: 1108150293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2114
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0daea2fd0411a48bed41b684b927a6
+      internalID: -1902513635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1922
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f0deaed33f3274bab8f16b73dac3d8
+      internalID: 1675726839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1922
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8edf24df5e11eb479db830ceb114309
+      internalID: 1743563112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1922
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c396597866d2f854897537f3c627ebde
+      internalID: -1506373154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1922
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8442f560cf7df0b479f504f1a816c9c5
+      internalID: 1577135549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1922
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a3373dee7450544ba7fcb407a51786
+      internalID: 1537430002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1922
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a19977db67e814f9589b8be1db8055
+      internalID: -1675055195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1730
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266a4fee2512e7b4698028aea099c209
+      internalID: -1583339636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1730
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9611b2e6fcd984b84d008b267c491b
+      internalID: 1057275243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1730
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d4f8170a9da764ea004e87b0eeaf8a
+      internalID: -1532584761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1730
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20133b331b482d4e8dca6f10f89ea5f
+      internalID: 1216354983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1730
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f502885b6f659eb4384655b566b59c25
+      internalID: -40578916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1730
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f388fb2a86d57ea4e9d4add291ad1b7b
+      internalID: -1759344236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1538
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083a3def049dc9a43a6c00fef92fa636
+      internalID: -210617832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1538
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ca3255082ec674890ef865161870de
+      internalID: 1033799588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1538
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af61aab3b70cc7b4cb6d06aee033fe0a
+      internalID: 116647163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1538
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bd3dfbfc12da84e94682d1c408f71f
+      internalID: -195217034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1538
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8648d1112220cda4d9055bd2d00ae25e
+      internalID: -856031618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1538
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679470fa81d5f47498498bc3901235ad
+      internalID: -237577358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1346
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f1c272a7e5653438555e945045e5d7
+      internalID: 1155723216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1346
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c85ab29c001784cad758abbefa71a9
+      internalID: 854921279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1346
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd81735f086db14baf48b57eadf8d5e
+      internalID: 782787478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1346
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e318b7df07e854349acda75aac0006f2
+      internalID: 81629121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1346
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a520bb1f5bfa842bbbf8b2471464f1
+      internalID: 1332467922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1346
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39be593fe436be944b24f2cd92d3c24d
+      internalID: 1089191860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1154
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a4d9a1537a2224190a190a9ad22131
+      internalID: 728275316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1154
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82118e302a977854a9333c35d8fbf5c0
+      internalID: -651894955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1154
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746830be54468eb4ba76a1969ffbc40d
+      internalID: -1598717712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1154
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3177777f6645184429b87414796a86a7
+      internalID: -1706169196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1154
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747ff8b8052f01744957d696939ce10f
+      internalID: 147167398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1154
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd527908c85ea0240b61bf8c94fb4535
+      internalID: -2046913212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 962
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b2afbe61d8b564391746352414f738
+      internalID: 1141215091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 962
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221a855e561a6fd44a7dbdd2a63ed572
+      internalID: -271561247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 962
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14c9f3c95f0aea4cab89dca77829b56
+      internalID: -1043176223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 962
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f575aa6ab6cec24419ebb41cd4923723
+      internalID: 771292792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 962
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f195966b975558b4d9d54f35a484c308
+      internalID: -46835655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_41
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 962
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3622ab30d67387d49a131f7311afb5ec
+      internalID: 718998878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52a35e53a6c49949917d06a0a855340
+      internalID: -474925775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 770
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9565a24218bfc04396c6cf9ad48f21e
+      internalID: -561612068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 770
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8a8ab5b8c594545bfd69cd8c18d5ec
+      internalID: 1748879881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_45
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 770
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc83f8eefcfc3214694006cce30cea51
+      internalID: -107053188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 770
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b7ab5c5017fd241baf7a55752a65bf
+      internalID: 1895066342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 770
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018a3df1a029b9a4ca94bc10a11928c0
+      internalID: 1212917436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2357921254bc642a08ae3243d375fd
+      internalID: 1026368077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1632a12250043e418dc57a82cce1d09
+      internalID: -1119021292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a8d2ffb40d2df4bb35a34e97980f5f
+      internalID: -1919842986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_51
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c12c1de09975046affe4602216da69
+      internalID: -1405181805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607ba6071932fe04d8da0cdb6d2a398c
+      internalID: 1070195728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_53
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f6d4ddacb43a243b1a00f92d1e67ae
+      internalID: 1263566261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc7e07f306c8da498cab6680278cfe0
+      internalID: 989410354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_55
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 578
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9a7f195faa7494387a2f7abce394c1
+      internalID: 1093779810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ac2c80d33f3b46b2b12ed377abc74
+      internalID: -2014930918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e796163bd107247bd9f28d342a1183
+      internalID: -1165719169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fb4f60c44f2364ca1f395ed91e7b80
+      internalID: 223098661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_59
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f14453f28c2964f93668a582c99d01
+      internalID: 1067041756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef978f71b8c2d848b75e5185cf7b18e
+      internalID: 412859014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_61
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a16cda9ffd5a94a8f819ddf1f7d828
+      internalID: -573960960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_62
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8090e79320974a04f872ee85ececafd6
+      internalID: 1539244103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_63
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 386
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ea159fc213be74fb42d0cfa9f18fe5
+      internalID: -853535000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a30b4cf291557b4282beaabb5eccddb
+      internalID: -295541581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abb5fcb55d45cc45b6a0bdd863f2b5a
+      internalID: 1639315190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3c906ab9f255f4abc7aebd4591fd02
+      internalID: -1839381090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_67
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1669776bd0e4aab49b797cf38bf2d054
+      internalID: 125765821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0e24087dc6cfd4c8788161b7bc656e
+      internalID: 1016003201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_69
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f7429b84e4a0a4f951348835c203a5
+      internalID: 1704314780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_70
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9359ac0a38088514d96434e10f13a977
+      internalID: 931525607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_71
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 194
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e28c4d6b1a2d52408161b6f11cc438b
+      internalID: -258771023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b47b9b8ce9b3db4b8bbb566d1123ff9
+      internalID: -741830611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2052eeb486211184e800158c9d5dc046
+      internalID: 726067885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e90874aac394e478c5f1b46f42aa61
+      internalID: 6127793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_75
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81ef20ef5a08cc418955accffd1abae
+      internalID: 951851682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cb0b8b2a0830d4fb133c7dbfab6655
+      internalID: -1718290585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_77
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fed9c967df4ef4e8aa08623e4251eb
+      internalID: 798435645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_78
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cd004ee10dcaa4d907d81352076545
+      internalID: 1541453140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Player_Sword_Attack_79
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb99467c2c0293e47817e0e99ecd7402
+      internalID: 1126994132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      S_Player_Sword_Attack_0: -1273449852
+      S_Player_Sword_Attack_1: 997229533
+      S_Player_Sword_Attack_10: 1537430002
+      S_Player_Sword_Attack_11: -1675055195
+      S_Player_Sword_Attack_12: -1583339636
+      S_Player_Sword_Attack_13: 1057275243
+      S_Player_Sword_Attack_14: -1532584761
+      S_Player_Sword_Attack_15: 1216354983
+      S_Player_Sword_Attack_16: -40578916
+      S_Player_Sword_Attack_17: -1759344236
+      S_Player_Sword_Attack_18: -210617832
+      S_Player_Sword_Attack_19: 1033799588
+      S_Player_Sword_Attack_2: 1430778914
+      S_Player_Sword_Attack_20: 116647163
+      S_Player_Sword_Attack_21: -195217034
+      S_Player_Sword_Attack_22: -856031618
+      S_Player_Sword_Attack_23: -237577358
+      S_Player_Sword_Attack_24: 1155723216
+      S_Player_Sword_Attack_25: 854921279
+      S_Player_Sword_Attack_26: 782787478
+      S_Player_Sword_Attack_27: 81629121
+      S_Player_Sword_Attack_28: 1332467922
+      S_Player_Sword_Attack_29: 1089191860
+      S_Player_Sword_Attack_3: -630224786
+      S_Player_Sword_Attack_30: 728275316
+      S_Player_Sword_Attack_31: -651894955
+      S_Player_Sword_Attack_32: -1598717712
+      S_Player_Sword_Attack_33: -1706169196
+      S_Player_Sword_Attack_34: 147167398
+      S_Player_Sword_Attack_35: -2046913212
+      S_Player_Sword_Attack_36: 1141215091
+      S_Player_Sword_Attack_37: -271561247
+      S_Player_Sword_Attack_38: -1043176223
+      S_Player_Sword_Attack_39: 771292792
+      S_Player_Sword_Attack_4: 1108150293
+      S_Player_Sword_Attack_40: -46835655
+      S_Player_Sword_Attack_41: 718998878
+      S_Player_Sword_Attack_42: -474925775
+      S_Player_Sword_Attack_43: -561612068
+      S_Player_Sword_Attack_44: 1748879881
+      S_Player_Sword_Attack_45: -107053188
+      S_Player_Sword_Attack_46: 1895066342
+      S_Player_Sword_Attack_47: 1212917436
+      S_Player_Sword_Attack_48: 1026368077
+      S_Player_Sword_Attack_49: -1119021292
+      S_Player_Sword_Attack_5: -1902513635
+      S_Player_Sword_Attack_50: -1919842986
+      S_Player_Sword_Attack_51: -1405181805
+      S_Player_Sword_Attack_52: 1070195728
+      S_Player_Sword_Attack_53: 1263566261
+      S_Player_Sword_Attack_54: 989410354
+      S_Player_Sword_Attack_55: 1093779810
+      S_Player_Sword_Attack_56: -2014930918
+      S_Player_Sword_Attack_57: -1165719169
+      S_Player_Sword_Attack_58: 223098661
+      S_Player_Sword_Attack_59: 1067041756
+      S_Player_Sword_Attack_6: 1675726839
+      S_Player_Sword_Attack_60: 412859014
+      S_Player_Sword_Attack_61: -573960960
+      S_Player_Sword_Attack_62: 1539244103
+      S_Player_Sword_Attack_63: -853535000
+      S_Player_Sword_Attack_64: -295541581
+      S_Player_Sword_Attack_65: 1639315190
+      S_Player_Sword_Attack_66: -1839381090
+      S_Player_Sword_Attack_67: 125765821
+      S_Player_Sword_Attack_68: 1016003201
+      S_Player_Sword_Attack_69: 1704314780
+      S_Player_Sword_Attack_7: 1743563112
+      S_Player_Sword_Attack_70: 931525607
+      S_Player_Sword_Attack_71: -258771023
+      S_Player_Sword_Attack_72: -741830611
+      S_Player_Sword_Attack_73: 726067885
+      S_Player_Sword_Attack_74: 6127793
+      S_Player_Sword_Attack_75: 951851682
+      S_Player_Sword_Attack_76: -1718290585
+      S_Player_Sword_Attack_77: 798435645
+      S_Player_Sword_Attack_78: 1541453140
+      S_Player_Sword_Attack_79: 1126994132
+      S_Player_Sword_Attack_8: -1506373154
+      S_Player_Sword_Attack_9: 1577135549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
