@@ -17,6 +17,7 @@ public class WeaponController : MonoBehaviour
     }
 
     private PlayerState currentState;
+    private bool isAttacking = false;
 
     private Animator animator;
 
@@ -37,16 +38,21 @@ public class WeaponController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             ChangeState(PlayerState.Melee);
+            Debug.Log("State: Melee");
         }
 
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             ChangeState(PlayerState.Bow);
+            Debug.Log("State: Bow");
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             ChangeState(PlayerState.NoWeapon);
+            Debug.Log("State: NoWeapon");
         }
+
+        HandlePlayerAbilities();
     }
 
     private void ChangeState(PlayerState newState)
@@ -77,33 +83,41 @@ public class WeaponController : MonoBehaviour
         switch (currentState)
         {
             case PlayerState.Melee:
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0)&& !isAttacking)
                 {
                     MeleeAttack();
+
                 }
                 break;
 
             case PlayerState.Bow:
-                // Bow attack input (e.g., LMB to shoot)
                 if (Input.GetMouseButtonDown(0))
                 {
                     BowAttack();
                 }
                 break;
         }
+    
     }
+
     private void MeleeAttack()
     {
         Debug.Log("Sword attack!");
         animator.SetTrigger("isAttacking");
+        StartCoroutine(AttackCoolDown());
+    }
+    
+    private IEnumerator AttackCoolDown()
+    {
+        isAttacking = true;
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        isAttacking = false;
     }
 
     private void BowAttack()
     {
         Debug.Log("Bow attack!");
         animator.SetTrigger("isShooting");
-
-        // Spawn an arrow prefab
         Instantiate(arrowPrefeb, transform.position, Quaternion.identity);
 
     }

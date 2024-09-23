@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,5 +19,22 @@ public class InputManager : MonoBehaviour
     private void Update()
     {
         Movement = moveAction.ReadValue<Vector2>();
+       
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Quit();
+        }
+    }
+
+    void Quit()
+    {
+        // If we are running in the editor
+#if UNITY_EDITOR
+        // Stop playing the scene in the editor
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        // If running as a built application, quit the game
+        Application.Quit();
+#endif
     }
 }

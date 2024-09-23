@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isDashing = false;
     private float dashingPower = 20f;
     private float dashingTime = 0.2f;
-    private float dashingCooldown = 1f;
+    private float dashingCooldown = 0.5f;
 
     [SerializeField] private TrailRenderer tr;
 
@@ -47,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift) & canDash)
         {
+            Debug.Log("Dash");
             StartCoroutine(Dash());
         }
 
@@ -65,7 +66,11 @@ public class PlayerMovement : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
-        rb.velocity = movement.normalized * dashingPower;
+
+        Vector2 dashDirection = movement == Vector2.zero ? new Vector2(animator.GetFloat(lastHorizontal), animator.GetFloat(lastVertical)) : movement.normalized;
+
+        rb.velocity = dashDirection * dashingPower;
+        
         tr.emitting = true;
         
         yield return new WaitForSeconds(dashingTime);
