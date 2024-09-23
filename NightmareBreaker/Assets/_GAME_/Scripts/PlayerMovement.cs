@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-  [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 5f;
 
     private Vector2 movement;
-
     private Rigidbody2D rb;
     private Animator animator;
 
@@ -16,6 +15,13 @@ public class PlayerMovement : MonoBehaviour
     private const string lastHorizontal = "LastHorizontal";
     private const string lastVertical = "LastVertical";
 
+    private bool canDash = true;
+    private bool isDashing = false;
+    private float dashingPower = 20f;
+    private float dashingTime = 0.2f;
+    private float dashingCooldown = 1f;
+
+    [SerializeField] private TrailRenderer tr;
 
     private void Awake()
     {
@@ -25,6 +31,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (isDashing)
+        {
+            return; 
+        }
         movement.Set(InputManager.Movement.x, InputManager.Movement.y);
         animator.SetFloat(horizontal,movement.x);
         animator.SetFloat (vertical,movement.y);
@@ -34,10 +44,38 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat(lastHorizontal, movement.x);
             animator.SetFloat(lastVertical, movement.y);
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) & canDash)
+        {
+            StartCoroutine(Dash());
+        }
+
     }
     private void FixedUpdate()
     {
-        // Apply movement using Rigidbody2D velocity
+        if (isDashing)
+        {
+            return;
+        }
+
         rb.velocity = movement * moveSpeed;
     }
+
+    private IEnumerator Dash ()
+    {
+        canDash = false;
+        isDashing = true;
+        rb.velocity = movement.normalized * dashingPower;
+        tr.emitting = true;
+        
+        yield return new WaitForSeconds(dashingTime);
+        
+        tr.emitting = false;
+        rb.velocity = Vector2.zero;
+        isDashing = false;
+        
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
+    }
+
 }

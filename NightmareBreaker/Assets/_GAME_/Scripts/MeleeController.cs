@@ -5,6 +5,7 @@ using UnityEngine;
 public class MeleeController : MonoBehaviour
 {
     private Animator animator;
+    private bool isAttacking = false;
 
     void Start()
     {
@@ -13,7 +14,7 @@ public class MeleeController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))  // Attack with sword
+        if (Input.GetMouseButtonDown(0) && !isAttacking) // Attack with sword
         {
             Attack();
         }
@@ -23,5 +24,13 @@ public class MeleeController : MonoBehaviour
     {
         Debug.Log("Sword attack!");
         animator.SetTrigger("isAttacking");
+        StartCoroutine(AttackCoolDown());
+    }
+
+    private IEnumerator AttackCoolDown()
+    {
+        isAttacking = true;
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        isAttacking = false;
     }
 }
