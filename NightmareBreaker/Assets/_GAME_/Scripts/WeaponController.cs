@@ -22,8 +22,9 @@ public class WeaponController : MonoBehaviour
     private Animator animator;
 
     [SerializeField] private float meleeAttackRange = 2f;
-    [SerializeField] private float bowRange = 10f;
+    [SerializeField] private int meleeDamage = 1;
     [SerializeField] private GameObject arrowPrefeb;
+    [SerializeField] private Transform arrowSpawnPoint;
 
     void Start()
     {
@@ -104,9 +105,24 @@ public class WeaponController : MonoBehaviour
     {
         Debug.Log("Sword attack!");
         animator.SetTrigger("isAttacking");
-        StartCoroutine(AttackCoolDown());
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, meleeAttackRange);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            if (enemy.CompareTag("Enemy"))
+            {
+                Enemy enemyHealth = enemy.GetComponent<Enemy>();
+                if (enemyHealth != null) {
+                    enemyHealth.TakeDamage(meleeDamage);
+            }
+        }
     }
-    
+
+        StartCoroutine(AttackCoolDown());
+
+    }
+
     private IEnumerator AttackCoolDown()
     {
         isAttacking = true;
@@ -120,5 +136,10 @@ public class WeaponController : MonoBehaviour
         animator.SetTrigger("isShooting");
         Instantiate(arrowPrefeb, transform.position, Quaternion.identity);
 
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, meleeAttackRange);
     }
 }
