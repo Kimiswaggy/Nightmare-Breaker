@@ -23,13 +23,15 @@ public class WeaponController : MonoBehaviour
 
     [SerializeField] private float meleeAttackRange = 2f;
     [SerializeField] private int meleeDamage = 1;
-    [SerializeField] private GameObject arrowPrefeb;
+
+    [SerializeField] private float bowRange = 10f;
+    [SerializeField] private GameObject arrowPrefab;
     [SerializeField] private Transform arrowSpawnPoint;
+    [SerializeField] private float arrowSpeed = 5f;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        arrowPrefeb = GetComponent<GameObject>();
         ChangeState(PlayerState.NoWeapon);
     }
 
@@ -92,7 +94,7 @@ public class WeaponController : MonoBehaviour
                 break;
 
             case PlayerState.Bow:
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0)&& !isAttacking)
                 {
                     BowAttack();
                 }
@@ -123,23 +125,32 @@ public class WeaponController : MonoBehaviour
 
     }
 
+    private void BowAttack()
+    {
+        Debug.Log("Bow attack!");
+        animator.SetTrigger("isShooting");
+
+        if (arrowPrefab != null && arrowSpawnPoint!= null)
+        {
+            GameObject arrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, arrowSpawnPoint.rotation);
+
+            Vector2 shootDirection = new Vector2(animator.GetFloat("LastHorizontal"), animator.GetFloat("LastVertical")).normalized;
+            arrow.GetComponent<Rigidbody2D>().velocity = shootDirection * arrowSpeed;
+
+        }
+
+        else
+        {
+            Debug.LogWarning("missing prefab");
+        }
+
+        StartCoroutine(AttackCoolDown());
+    }
+
     private IEnumerator AttackCoolDown()
     {
         isAttacking = true;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         isAttacking = false;
-    }
-
-    private void BowAttack()
-    {
-        Debug.Log("Bow attack!");
-        animator.SetTrigger("isShooting");
-        Instantiate(arrowPrefeb, transform.position, Quaternion.identity);
-
-    }
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, meleeAttackRange);
     }
 }

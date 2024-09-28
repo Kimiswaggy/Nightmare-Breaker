@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int currentHealth, maxHealth = 5;
+    public int enemyCurrentHealth, enemyMaxHealth = 5;
 
     public float detectionRange = 5f;
     public float stopChaseRange = 10f;
@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
-        currentHealth = maxHealth;
+        enemyCurrentHealth = enemyMaxHealth;
     }
 
     void Update()
@@ -55,11 +55,11 @@ public class Enemy : MonoBehaviour
     {
         if (isDead) return;
 
-        currentHealth -= damage;
+        enemyCurrentHealth -= damage;
         animator.SetTrigger("isHurt");
-        if (currentHealth <= 0)
+        if (enemyCurrentHealth <= 0)
         {
-            currentHealth = 0;
+            enemyCurrentHealth = 0;
             TriggerDeath();
         }
     }
