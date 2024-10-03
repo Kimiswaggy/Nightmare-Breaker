@@ -22,13 +22,13 @@ public class InputManager : MonoBehaviour
        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Quit();
+            Application.Quit();
         }
     }
 
     void Quit()
     {
-        // If we are running in the editor
+
 #if UNITY_EDITOR
         // Stop playing the scene in the editor
         UnityEditor.EditorApplication.isPlaying = false;
