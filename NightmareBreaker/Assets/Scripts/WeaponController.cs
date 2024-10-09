@@ -133,12 +133,26 @@ public class WeaponController : MonoBehaviour
             GameObject arrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, arrowSpawnPoint.rotation);
 
             Vector2 shootDirection = new Vector2(animator.GetFloat("LastHorizontal"), animator.GetFloat("LastVertical")).normalized;
+           
+            if (shootDirection == Vector2.zero)
+            {
+                Debug.LogWarning("No shooting direction");
+                return;
+            }
+
+            //calculate the angle for the arrow rotation
+            float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
+
+            //set the arrow rotation to match the shooting direction
+            arrow.transform.rotation = Quaternion.Euler(0, 0, angle - 90);
+
+            //set arrow velocity to move the shooting direction
             arrow.GetComponent<Rigidbody2D>().velocity = shootDirection * arrowSpeed;
         }
 
         else
         {
-            Debug.LogWarning("missing prefab");
+            Debug.LogWarning("missing arrow prefab");
         }
 
         StartCoroutine(AttackCoolDown());
