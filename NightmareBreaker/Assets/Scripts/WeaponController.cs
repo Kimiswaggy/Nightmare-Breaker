@@ -26,7 +26,7 @@ public class WeaponController : MonoBehaviour
     [SerializeField] private float bowRange = 10f;
     [SerializeField] private GameObject arrowPrefab;
     [SerializeField] private Transform arrowSpawnPoint;
-    [SerializeField] private float arrowSpeed = 5f;
+    [SerializeField] private float arrowSpeed = 8f;
 
     void Start()
     {

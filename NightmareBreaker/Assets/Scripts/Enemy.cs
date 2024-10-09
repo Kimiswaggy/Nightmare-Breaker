@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     public int enemyCurrentHealth, enemyMaxHealth = 5;
 
     public float detectionRange = 5f;
-    public float stopChaseRange = 10f;
+    public float stopChaseRange = 8f;
     public float attackRange = 1.5f;
     public int damageAmount = 1;
     public float moveSpeed = 3f;
@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour
         if (isDead) return;
 
         enemyCurrentHealth -= damage;
-        animator.SetTrigger("isHurt");
+        animator.SetTrigger ("isHurt");
         if (enemyCurrentHealth <= 0)
         {
             enemyCurrentHealth = 0;
@@ -71,6 +71,7 @@ public class Enemy : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
     }
+    
     private void ChasePlayer()
     {
         animator.SetBool("isMoving", true);
@@ -89,6 +90,7 @@ public class Enemy : MonoBehaviour
 
     }
 
+    //Flip the enemy sprite direction to its moving direction
     private void Flip()
     {
         facingRight = !facingRight;
@@ -135,17 +137,4 @@ public class Enemy : MonoBehaviour
 
 
         }
-
-        /*private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collider.gameObject.CompareTag("Player") && canDealDamage)
-            {
-                PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-                if (playerHealth != null && canDealDamage)
-                {
-                    Debug.Log("Player took damage");
-                    playerHealth.Damage(damageAmount);
-                }
-            }
-        }*/
     }
