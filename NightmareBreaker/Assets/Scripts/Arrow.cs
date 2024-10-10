@@ -30,7 +30,7 @@ public class Arrow : MonoBehaviour
     {
        if (collision.CompareTag("Enemy"))
         {
-            Enemy enemyCurrrentHealth = collision.GetComponent<Enemy>();
+            Enemy_Base enemyCurrrentHealth = collision.GetComponent<Enemy_Base>();
 
             if (enemyCurrrentHealth != null)
             {

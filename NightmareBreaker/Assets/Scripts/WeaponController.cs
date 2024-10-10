@@ -112,9 +112,9 @@ public class WeaponController : MonoBehaviour
         {
             if (enemy.CompareTag("Enemy"))
             {
-                Enemy enemyHealth = enemy.GetComponent<Enemy>();
-                if (enemyHealth != null) {
-                    enemyHealth.TakeDamage(meleeDamage);
+                Enemy_Base enemyCurrrentHealth = enemy.GetComponent<Enemy_Base>();
+                if (enemyCurrrentHealth != null) {
+                    enemyCurrrentHealth.TakeDamage(meleeDamage);
             }
         }
     }
