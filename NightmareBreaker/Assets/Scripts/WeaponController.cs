@@ -54,7 +54,7 @@ public class WeaponController : MonoBehaviour
             Debug.Log("State: NoWeapon");
         }
 
-        HandlePlayerAbilities();
+        HandleMouseInput();
     }
 
     private void ChangeState(PlayerState newState)
@@ -80,25 +80,21 @@ public class WeaponController : MonoBehaviour
         }
     }
 
-    private void HandlePlayerAbilities()
+    private void HandleMouseInput()
     {
-        switch (currentState)
+        // Left mouse click (LMB) for Melee
+        if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
-            case PlayerState.Melee:
-                if (Input.GetMouseButtonDown(0)&& !isAttacking)
-                {
-                    MeleeAttack();
-                }
-                break;
-
-            case PlayerState.Bow:
-                if (Input.GetMouseButtonDown(0)&& !isAttacking)
-                {
-                    BowAttack();
-                }
-                break;
+            ChangeState(PlayerState.Melee); // Quick switch to melee
+            MeleeAttack();
         }
-    
+        // Right mouse click (RMB) for Bow
+        else if (Input.GetMouseButtonDown(1) && !isAttacking)
+        {
+            ChangeState(PlayerState.Bow); // Quick switch to bow
+            BowAttack();
+        }
+
     }
 
     private void MeleeAttack()
