@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
-using JetBrains.Rider.Unity.Editor;
 using UnityEngine;
 
 public class Arrow : MonoBehaviour
